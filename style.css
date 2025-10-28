@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: lightblue; 
+}
+
+/* * {
+    border: 1px solid red; 
+}*/ 
+
+a#test{  
+}
+#test 
+
+
+
+.border {
+    border: 3px solid black; 
+    background-color: black; 
+}
+
+h2.border {
+    background-color: white;
+    display: inline;  
+    padding: 20px 50px; 
+    margin: 20px 20px 20px 0px; 
+    border: 5px dashed black; 
+}
+
+ol li {
+    color: white; 
+}
+
+h1, h2, h6 {
+    color: rgba(255, 0, 0, 0.5); 
+}
+div h1 {
+    color: #A255CB; /*lyselilla*/
+}
+
+h1:hover {
+    color: black;
+}
