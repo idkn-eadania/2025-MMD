@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+.red {
+    width: 500px; 
+    height: 50px; 
+    background-color: red; 
+}
+
+.blue {
+    max-width: 1000px; 
+    height: 50px; 
+    background-color: blue; 
+}
+
+.green {
+    width: 50%; 
+    height: 50px; 
+    background-color: green; 
+}
+
+.yellow {
+    min-width: 800px; 
+    height: 50px; 
+    background-color: yellow; 
+}
+
+.flexbox{
+    background-color: grey; 
+    display: flex;
+    flex-flow: wrap;
+}
+
+p {
+    background-color: white; 
+    margin: 10px; 
+    text-align: center; 
+    flex: 1 0 150px;
+}
+
+.flexitem {
+    flex: 1 1 500px; 
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .red {
+        background-color: black; 
+    }
+    
+    .green {
+        width: 100%; 
+    }
+    
+    .flexbox {
+        flex-direction: column; 
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
